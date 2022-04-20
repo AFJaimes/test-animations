@@ -1,6 +1,7 @@
 import Card from '../components/Cards/Card/Card';
 import ScoreCard from '../components/Cards/ScoreCard/ScoreCard';
 import FlipCard from '../components/Cards/FlipCard/FlipCard';
+import ClickerCard from '../components/Cards/ClickerCard/ClickerCard';
 import LoaderCircle from '../components/Loaders/LoaderCircle/LoaderCircle';
 import css from '../styles/Styles.module.css';
 
@@ -11,7 +12,7 @@ export default function Home() {
         <span className={css.title}>progress bar test</span>
         <LoaderCircle percentage={90} title="90%" />
       </Card>
-      <ScoreCard score={100} />
+      <ClickerCard />
       <ScoreCard score={0} />
       <ScoreCard score={14564} />
       <FlipCard
