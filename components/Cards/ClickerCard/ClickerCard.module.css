@@ -1,7 +1,6 @@
 .container {
   min-width: 100%;
   min-height: 100%;
-  cursor: pointer;
   user-select: none;
 }
 
@@ -23,7 +22,7 @@
   border-radius: 50%;
   animation: clickEffect 0.4s ease-out;
   z-index: 99999;
-  pointer-events: none;  
+  pointer-events: none;
   user-select: none;
 }
 
@@ -36,7 +35,7 @@
     border-width: 0.5em;
   }
   100% {
-    opacity: 0.2;
+    opacity: 0;
     width: 15em;
     height: 15em;
     margin: -7.5em;
