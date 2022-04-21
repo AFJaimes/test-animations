@@ -24,7 +24,7 @@ const ClickerCard: FunctionComponent<ClickerCardProps> = ({}) => {
     <Card dark>
       <div
         className={css.container}
-        onClick={handleClick}
+        onMouseDown={handleClick}
       >
         <span className={css.title}>
           Click inside me
